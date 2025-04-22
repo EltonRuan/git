@@ -23,6 +23,14 @@
 </ul>
 <p><em>Example output:</em> <code>git version 2.48.1.windows.1</code></p>
 
+<h2>HEAD, Staging Area and Working Directory</h2>
+<p>Git works with three main areas:</p>
+<ul>
+  <li><strong>HEAD:</strong> Refers to the latest commit in the current branch. It acts as a reference for the most recent state of your project.</li>
+  <li><strong>Staging Area:</strong> The area where files are placed before committing. It's like a "preview" of what will be added to the commit.</li>
+  <li><strong>Working Directory:</strong> The actual directory where files are modified, added, or deleted. This is where active development occurs.</li>
+</ul>
+
 ## 🚀 GIT COMMANDS CHEAT SHEET
 
 Git is a powerful version control system that helps developers track code changes, collaborate efficiently, and manage project history. Below is a categorized list of essential and advanced Git commands.
