@@ -19,7 +19,7 @@
   <li><strong>Windows:</strong> Download the installer from <a href="https://git-scm.com">git-scm.com</a> and follow the setup instructions.</li>
   <li><strong>macOS:</strong> Use Homebrew with the command <code>brew install git</code>, or download it directly from the official site.</li>
   <li><strong>Linux:</strong> Use your package manager, for example: <code>sudo apt install git</code> (Ubuntu/Debian).</li>
-  <li><strong>Verify Installation:</strong> After installing, run <code>git --version</code> in the terminal to confirm Git is correctly installed.</li>
+  <li><strong>Verify Installation:</strong> After installing, run <code>git -v</code> in the terminal to confirm Git is correctly installed.</li>
 </ul>
 
 
