@@ -13,6 +13,16 @@
   <li><strong>Open Source & Widely Used:</strong> Git is free, actively maintained, and used by millions of developers and companies around the world.</li>
 </ul>
 
+<h2>INSTALLING GIT</h2>
+<p>Getting started with Git is simple. It can be installed on all major operating systems, including Windows, macOS, and Linux. Follow the steps below to install Git on your machine:</p>
+<ul>
+  <li><strong>Windows:</strong> Download the installer from <a href="https://git-scm.com">git-scm.com</a> and follow the setup instructions.</li>
+  <li><strong>macOS:</strong> Use Homebrew with the command <code>brew install git</code>, or download it directly from the official site.</li>
+  <li><strong>Linux:</strong> Use your package manager, for example: <code>sudo apt install git</code> (Ubuntu/Debian).</li>
+  <li><strong>Verify Installation:</strong> After installing, run <code>git --version</code> in the terminal to confirm Git is correctly installed.</li>
+</ul>
+
+
 <footer align="center">
  <img style="width:100%" src="https://capsule-render.vercel.app/api?type=soft&height=20&color=FFFFFF&fontSize=50&fontAlign=50&strokeWidth=0&descAlignY=80&stroke=000000&reversal=false&section=footer">
 </footer>
