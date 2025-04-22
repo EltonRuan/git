@@ -133,9 +133,7 @@ Git is a powerful version control system that helps developers track code change
 <p>Here’s an example of what you might include in a typical <code>.gitignore</code> file:</p>
 <pre><code>*.log
 *.tmp
-
 /node_modules
-
 backups/</code></pre>
 <p>To create a <code>.gitignore</code> file, simply create a new text file named <code>.gitignore</code> in the root directory of your project and list the files or folders to exclude.</p>
 
