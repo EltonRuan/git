@@ -21,7 +21,7 @@
   <li><strong>Linux:</strong> Use your package manager, for example: <code>sudo apt install git</code> (Ubuntu/Debian).</li>
   <li><strong>Verify Installation:</strong> After installing, run <code>git -v</code> in the terminal to confirm Git is correctly installed.</li>
 </ul>
-
+<p><em>Example output:</em> <code>git version 2.48.1.windows.1</code></p>
 
 <footer align="center">
  <img style="width:100%" src="https://capsule-render.vercel.app/api?type=soft&height=20&color=FFFFFF&fontSize=50&fontAlign=50&strokeWidth=0&descAlignY=80&stroke=000000&reversal=false&section=footer">
