@@ -165,7 +165,7 @@ backups/</code></pre>
 <p>Feel free to explore, experiment, and apply these techniques in your projects. The power of version control is in your hands, and mastering Git will undoubtedly make you a more effective developer, capable of collaborating and managing code with ease.</p>
 <p>Don't hesitate to refer back to this material as needed, and always keep learning. Git is an essential tool for every developer, and continuous practice is the best way to improve your skills!</p>
 <p>Good luck, and happy coding!</p>
-
+<br><br>
 <p><strong>Copyright by Elton Ruan</strong></p>
 
 <footer align="center">
