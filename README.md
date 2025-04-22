@@ -23,6 +23,107 @@
 </ul>
 <p><em>Example output:</em> <code>git version 2.48.1.windows.1</code></p>
 
+## 🚀 GIT COMMANDS CHEAT SHEET
+
+Git is a powerful version control system that helps developers track code changes, collaborate efficiently, and manage project history. Below is a categorized list of essential and advanced Git commands.
+
+---
+
+### 🔰 INITIALIZATION & CONFIGURATION
+
+- `git init` – Initialize a new Git repository.
+- `git config` – Set Git configuration values.
+- `git config --global user.name "Your Name"` – Set your global username.
+- `git config --global user.email "you@example.com"` – Set your global email.
+- `git config --list` – View current Git configuration.
+
+---
+
+### 📦 CLONING & REMOTES
+
+- `git clone <url>` – Clone a remote repository.
+- `git remote` – List remote repositories.
+- `git remote add origin <url>` – Add a new remote.
+- `git remote -v` – Show remote URLs.
+- `git fetch` – Fetch changes from remote (no merge).
+- `git pull` – Fetch and merge remote changes.
+- `git push` – Push commits to remote.
+- `git push -u origin main` – Push and set upstream.
+
+---
+
+### 🧾 STATUS, HISTORY & LOGS
+
+- `git status` – Show current changes and staging info.
+- `git log` – View commit history.
+- `git show` – Show details of a specific commit.
+- `git diff` – View changes between commits or branches.
+- `git blame <file>` – Show who changed each line in a file.
+- `git shortlog` – Summarize commits per contributor.
+
+---
+
+### 🗂️ STAGING & COMMITTING
+
+- `git add <file>` – Stage specific file.
+- `git add .` – Stage all modified and new files.
+- `git reset <file>` – Unstage a file.
+- `git commit -m "message"` – Commit changes with a message.
+- `git commit -am "message"` – Stage and commit tracked files.
+- `git commit --amend --no-edit` – Edit the last commit.
+
+---
+
+### 🌿 BRANCHING
+
+- `git branch` – List branches.
+- `git branch <name>` – Create a new branch.
+- `git checkout <name>` – Switch to a branch.
+- `git switch <name>` – Switch to a branch (modern alternative).
+- `git switch -c <name>` – Create and switch to a new branch.
+- `git merge <name>` – Merge another branch into the current one.
+- `git rebase <branch>` – Rebase changes onto a different base.
+
+---
+
+### 🧹 UNDO & FIXES
+
+- `git reset` – Unstage or undo commits.
+- `git reset --hard HEAD` – Reset to the last commit, discarding all changes.
+- `git clean -f` – Remove untracked files.
+- `git revert <commit>` – Revert a commit with a new commit.
+- `git stash` – Save current changes temporarily.
+- `git stash pop` – Restore stashed changes.
+- `git cherry-pick <commit>` – Apply a specific commit on the current branch.
+
+---
+
+### 🔍 SEARCH & NAVIGATION
+
+- `git grep "<pattern>"` – Search text across your repository.
+- `git show <commit>` – Show details of a commit.
+- `git describe` – Describe a commit using the most recent tag.
+
+---
+
+### 🧪 TAGS
+
+- `git tag` – List tags.
+- `git tag <name>` – Create a tag.
+- `git tag -a <name> -m "message"` – Create an annotated tag.
+- `git push origin <tag>` – Push tag to remote.
+
+---
+
+### 🧠 ADVANCED
+
+- `git reflog` – View reference logs (even deleted commits).
+- `git bisect` – Find the commit that introduced a bug.
+- `git archive` – Create a zip/tar archive of the repository.
+- `git submodule` – Manage nested repositories inside your project.
+
+
+
 <footer align="center">
  <img style="width:100%" src="https://capsule-render.vercel.app/api?type=soft&height=20&color=FFFFFF&fontSize=50&fontAlign=50&strokeWidth=0&descAlignY=80&stroke=000000&reversal=false&section=footer">
 </footer>
