@@ -6,6 +6,6 @@
 <p>Full Stack developer driven by technology, learning, and the desire to turn ideas into real solutions.
 </p>
 
-<footer>
- <img src="https://capsule-render.vercel.app/api?type=soft&height=100&color=FFFFFF&fontSize=50&fontAlign=50&strokeWidth=0&descAlignY=80&stroke=000000&reversal=false&section=footer">
+<footer align="center">
+ <img style="width:100%" src="https://capsule-render.vercel.app/api?type=soft&height=100&color=FFFFFF&fontSize=50&fontAlign=50&strokeWidth=0&descAlignY=80&stroke=000000&reversal=false&section=footer">
 </footer>
