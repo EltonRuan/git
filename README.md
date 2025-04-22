@@ -130,7 +130,15 @@ Git is a powerful version control system that helps developers track code change
   <li><strong>Easy to maintain:</strong> Once set up, you don’t need to worry about accidentally adding files that shouldn't be tracked by Git.</li>
   <li><strong>Common .gitignore examples:</strong> For example, for a Node.js project, you might add <code>node_modules/</code> to <code>.gitignore</code> to avoid committing dependencies that can be installed via <code>npm</code>.</li>
 </ul>
+<p>Here’s an example of what you might include in a typical <code>.gitignore</code> file:</p>
+<pre><code>*.log
+*.tmp
+
+/node_modules
+
+backups/</code></pre>
 <p>To create a <code>.gitignore</code> file, simply create a new text file named <code>.gitignore</code> in the root directory of your project and list the files or folders to exclude.</p>
+
 
 
 
