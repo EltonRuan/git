@@ -6,7 +6,7 @@
 <p>Git is a distributed version control system that helps developers manage and track changes in their code. It allows teams to collaborate efficiently, maintain code history, and experiment with new features without affecting the main project. Git is an essential tool in modern software development workflows.</p>
 
 <div align="center">
-<img src="https://skillicons.dev/icons?i=git&perline=20" />
+<img src="https://skillicons.dev/icons?i=git,css&perline=20" />
 </div>
 
 <h2>WHY USE GIT?</h2>
