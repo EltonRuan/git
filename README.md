@@ -166,6 +166,8 @@ backups/</code></pre>
 <p>Don't hesitate to refer back to this material as needed, and always keep learning. Git is an essential tool for every developer, and continuous practice is the best way to improve your skills!</p>
 <p>Good luck, and happy coding!</p>
 
+<p align="center"><strong>Copyright by Elton Ruan</strong></p>
+
 <footer align="center">
  <img style="width:100%" src="https://capsule-render.vercel.app/api?type=soft&height=20&color=FFFFFF&fontSize=50&fontAlign=50&strokeWidth=0&descAlignY=80&stroke=000000&reversal=false&section=footer">
 </footer>
