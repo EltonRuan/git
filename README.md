@@ -23,7 +23,7 @@
 </ul>
 <p><em>Example output:</em> <code>git version 2.48.1.windows.1</code></p>
 
-<h2>HEAD, Staging Area and Working Directory</h2>
+<h2>HEAD, STAGING AREA AND WORKING DIRECTORY</h2>
 <p>Git works with three main areas:</p>
 <ul>
   <li><strong>HEAD:</strong> Refers to the latest commit in the current branch. It acts as a reference for the most recent state of your project.</li>
