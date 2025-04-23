@@ -2,11 +2,22 @@
  <img style="width:100%" src="https://capsule-render.vercel.app/api?type=soft&height=200&color=FFFFFF&text=How%20to%20use%20Git&fontSize=50&fontAlign=50&strokeWidth=0&desc=Learn%20how%20to%20use%20git%20in%20all%20your%20projects&descAlignY=80&stroke=000000">
 </div>
 
-<h2>ABOUT GIT</h2>
+<div align="center" style="margin-bottom: 20px;">
+  <a href="#about-git">ABOUT GIT</a> |
+  <a href="#why-use-git">WHY USE GIT</a> |
+  <a href="#installing-git">INSTALLING GIT</a> |
+  <a href="#head-staging-area-and-working-directory">HEAD, STAGING & WORKING DIRECTORY</a> |
+  <a href="#git-commands-cheat-sheet">GIT COMMANDS</a> |
+  <a href="#about-gitignore">ABOUT .GITIGNORE</a> |
+  <a href="#git-tips-for-effective-usage">GIT TIPS</a> |
+  <a href="#final-considerations">FINAL CONSIDERATIONS</a>
+</div>
+
+## ABOUT GIT
 <p>Git is a distributed version control system that helps developers manage and track changes in their code. It allows teams to collaborate efficiently, maintain code history, and experiment with new features without affecting the main project. Git is an essential tool in modern software development workflows.</p>
 <img src="https://skillicons.dev/icons?i=git,&perline=20" />
 
-<h2>WHY USE GIT?</h2>
+## WHY USE GIT?
 <ul>
   <li><strong>Collaboration:</strong> Git enables multiple developers to work on the same project without conflicts, streamlining teamwork.</li>
   <li><strong>Version History:</strong> Every change is tracked, allowing developers to revert to previous versions and understand the evolution of the code.</li>
@@ -14,7 +25,7 @@
   <li><strong>Open Source & Widely Used:</strong> Git is free, actively maintained, and used by millions of developers and companies around the world.</li>
 </ul>
 
-<h2>INSTALLING GIT</h2>
+## INSTALLING GIT
 <p>Getting started with Git is simple. It can be installed on all major operating systems, including Windows, macOS, and Linux. Follow the steps below to install Git on your machine:</p>
 <ul>
   <li><strong>Windows:</strong> Download the installer from <a href="https://git-scm.com">git-scm.com</a> and follow the setup instructions.</li>
@@ -24,7 +35,7 @@
 </ul>
 <p><em>Example output:</em> <code>git version 2.48.1.windows.1</code></p>
 
-<h2>HEAD, STAGING AREA AND WORKING DIRECTORY</h2>
+## HEAD, STAGING AREA AND WORKING DIRECTORY
 <p>Git works with three main areas:</p>
 <ul>
   <li><strong>HEAD:</strong> Refers to the latest commit in the current branch. It acts as a reference for the most recent state of your project.</li>
@@ -131,7 +142,7 @@ Git is a powerful version control system that helps developers track code change
 - `git archive` – Create a zip/tar archive of the repository.
 - `git submodule` – Manage nested repositories inside your project.
 
-<h2>ABOUT .gitignore</h2>
+## ABOUT .gitignore
 <p>The <code>.gitignore</code> file is used to tell Git which files or directories to ignore in a project. This is important because certain files, such as log files, build outputs, or sensitive data (e.g., passwords), do not need to be tracked or committed to version control. Using a <code>.gitignore</code> file helps keep the repository clean and focused only on the files necessary for the project.</p>
 <ul>
   <li><strong>Exclude unnecessary files:</strong> You can add files like <code>*.log</code>, <code>*.tmp</code>, or <code>node_modules/</code> to ignore unnecessary files that are specific to your development environment.</li>
@@ -146,7 +157,7 @@ Git is a powerful version control system that helps developers track code change
 backups/</code></pre>
 <p>To create a <code>.gitignore</code> file, simply create a new text file named <code>.gitignore</code> in the root directory of your project and list the files or folders to exclude.</p>
 
-<h2>Git Tips for Effective Usage</h2>
+## Git Tips for Effective Usage
 <p>Here are some helpful tips to make the most out of Git:</p>
 <ul>
   <li><strong>Commit Frequently:</strong> Make small, frequent commits rather than large, infrequent ones. This makes it easier to track changes, understand the history, and resolve conflicts.</li>
@@ -161,7 +172,7 @@ backups/</code></pre>
   <li><strong>Practice Safe Merging:</strong> When merging, ensure you’re merging from the correct branch and be mindful of potential conflicts. It’s helpful to do <code>git fetch</code> and <code>git rebase</code> before merging to keep your history clean.</li>
 </ul>
 
-<h2>Final Considerations</h2>
+## Final Considerations
 <p>This guide was created to help facilitate the learning process and provide a clear, concise understanding of Git for developers of all levels. Whether you're just starting out or looking to refine your knowledge, these tips and commands should serve as a solid foundation to work more efficiently with Git.</p>
 <p>Feel free to explore, experiment, and apply these techniques in your projects. The power of version control is in your hands, and mastering Git will undoubtedly make you a more effective developer, capable of collaborating and managing code with ease.</p>
 <p>Don't hesitate to refer back to this material as needed, and always keep learning. Git is an essential tool for every developer, and continuous practice is the best way to improve your skills!</p>
