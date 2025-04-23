@@ -3,6 +3,8 @@
 </div>
 
 <div align="center" style="margin-bottom: 20px;">
+  <h2>🔗 NAVIGATION </h2>
+
   <a href="#about-git">ABOUT GIT</a> |
   <a href="#why-use-git">WHY USE GIT</a> |
   <a href="#installing-git">INSTALLING GIT</a> |
